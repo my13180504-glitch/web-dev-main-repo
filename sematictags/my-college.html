@@ -7,7 +7,12 @@
     
      
     <style> 
-        p{ color:blue!important;
+    *{
+        background-color: skyblue;
+        margin: 0;
+
+    }
+        p{ color:blue ;
             font-size: 16px;
             border: 2px solid #000;
             
@@ -15,7 +20,7 @@
         }
         .box {
                 width: 200px;
-                     height: 100px;
+                 height: 100px;
                padding: 20px;
                   border: 2px solid #000;
                    margin: 10px;
@@ -27,6 +32,14 @@
         .note{color: red;
 
         }
+        div >p{
+            color: red;
+            background-color: aqua;
+        }
+        div+p{
+            color: magenta;
+            background-color: aliceblue;
+        }
 
     </style>
      <link rel="stylesheet" href="style.css">
@@ -35,6 +48,14 @@
     <header>
     
     <section > 
+        <div> 
+
+            <p> The most iconic college</p>
+            <div> 
+                <p> 100 days of coding</p>
+            </div>
+        </div>
+        <p> THE INNOVATE AND EXPOUSE COLLEGE IN INDIA </p>
         <h1> My COLLEGE </h1>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrIyqHUdX3O_4mu3I8dYK526u11CIr3MwqCQdonHouWsaIz19lHvZSXm0S&s=10" >
         <!--Navigation-->
