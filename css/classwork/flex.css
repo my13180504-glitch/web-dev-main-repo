@@ -1,9 +1,10 @@
 .container{
     display: flex;
     background-color:blue ;
-    flex-direction: column;
+    flex-direction: row;
     height: 800px;
     flex-wrap: wrap;
+    width: 200px;
     
   
 }
