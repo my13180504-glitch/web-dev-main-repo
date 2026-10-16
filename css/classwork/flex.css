@@ -1,7 +1,8 @@
 .container{
     display: flex;
     background-color:blue ;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .container div {
     
