@@ -1,22 +1,109 @@
-.container{
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Container 1 */
+.container {
     display: flex;
-    background-color:blue ;
+    background-color: purple;
     flex-direction: row;
-    height: 800px;
+    gap: 20px;
     flex-wrap: wrap;
-    width: 200px;
-    
-  
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    margin-bottom: 30px;
 }
+
 .container div {
-    
-    background-color: yellow;
-    margin: 10px;
-    padding: 20px;
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 80px;
     font-size: 20px;
-    width: 20px;
-    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Container 2 */
+.container1 {
+    display: flex;
+    background-color: purple;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 200px;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-bottom: 30px;
+}
 
+.container1 div {
+    background-color: skyblue;
+    width: 100px;
+    height: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Container 3 */
+.container2 {
+    display: flex;
+    background-color: purple;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.container2 div {
+    background-color: orangered;
+    width: 100px;
+    height: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container 4 */
+.container3 {
+    display: flex;
+    background-color: purple;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.container3 div {
+    background-color: orangered;
+    width: 100px;
+    height: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
