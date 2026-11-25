@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Best CSS Animation</title>
+
+    <style>
+        body {
+            background: #101827;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(45deg, #4a9888, #0066ff);
+            border-radius: 20px;
+
+            animation: animate 3s ease-in-out infinite;
+
+            box-shadow: 0 0 20px #00ffcc;
+        }
+
+        @keyframes animate {
+            0% {
+                transform: translateY(0) rotate(0deg) scale(1);
+                border-radius: 20px;
+            }
+
+            25% {
+                transform: translateY(-100px) rotate(90deg) scale(1.2);
+            }
+
+            50% {
+                transform: translateY(0) rotate(180deg) scale(1);
+                border-radius: 50%;
+            }
+
+            75% {
+                transform: translateY(-100px) rotate(270deg) scale(1.2);
+            }
+
+            100% {
+                transform: translateY(0) rotate(360deg) scale(1);
+                border-radius: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box"></div>
+
+</body>
+</html>
